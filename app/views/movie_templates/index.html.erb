@@ -2,38 +2,40 @@
   List of all movies
 </h1>
 
-<form action="">
+<form action="/insert_movie_record" method="post">
 <div>
 <label for="title_field">Title</label>
-<input id="title_field" type="text">
+<input id="title_field" type="text" name="the_title">
 </div>
 
 <div>
 <label for="year_field">Year</label>
-<input id="year_field" type="text">
+<input id="year_field" type="text" name="the_year">
 </div>
 
 <div>
 <label for="dur_field">Duration</label>
-<input id="dur_field" type="text">
+<input id="dur_field" type="text" name="the_duration">
 </div>
 
 <div>
 <label for="des_field">Description</label>
-<input id="des_field" type="text">
+<input id="des_field" type="text" name="the_description">
 </div>
 
 <div>
 <label for="image_field">Image</label>
-<input id="image_field" type="text">
+<input id="image_field" type="text" name="the_image">
 </div>
 
 <div>
 <label for="dir_field">Director_ID</label>
-<input id="dir_field" type="text">
+<input id="dir_field" type="text" name="the_director_id">
 </div>
 
-
+<button>
+Create movie
+</button>
 
 </form>
 
